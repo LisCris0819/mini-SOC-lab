@@ -16,3 +16,11 @@ This document defines the architecture and scope of a personal SOC lab designed 
 - Daily ingest limited to 500 MB (Splunk Free)
 - Only targeted log sources enabled
 - No full packet capture or verbose debug logging
+
+## Next Steps
+1. Setup Windows endpoint VM
+2. Setup Linux attacker VM
+3. Configure log forwarding to Splunk
+4. Ingest initial logs (Windows Event Logs, Linux auth logs)
+5. Document attack scenarios and run controlled simulations
+6. Develop detection rules and dashboards
